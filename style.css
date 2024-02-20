@@ -2,40 +2,60 @@
 body
 {
   font-family: 'Roboto',sans-serif;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(162, 162, 162);
 }
 #Block
 {
-  margin-bottom: 5%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: rgba(247, 247, 247, 0.934);
-  min-width: 700px;
+  min-width: 1150px;
 }
-
+em
+{
+  font-size: 140%;
+}
 li
 {
-  font-size: larger;
+  font-size: 140%;
 }
 #ENTETE
 {
-  background-image: url(./Image/Portrait.png);
-  background-repeat: no-repeat;
-  background-position: 88%;
-  background-size: 140px;
   font-size: 300%;
-  padding-left: 8%;
+  padding-left: 11%;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-bottom-style: dashed;
-  
+  background: linear-gradient(90deg, rgb(215, 215, 215) 0%, rgb(52, 52, 52) 100%);
 }
-
+em
+{
+  line-height: 100px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+div img
+{
+  height:200px;
+  width:160px;
+  float: right;
+  clip-path:ellipse(60% 50%);
+  margin-right: 160px;
+}
+/* #IMG
+{
+  background-image: url(./Image/Portrait.png);
+  background-repeat: no-repeat;
+  background-position: 85%;
+  background-size: 140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: solid;
+} */
 section
 {
   display: flex;
   word-spacing: 2px;
-  line-height: 35px; 
+  line-height: 40px; 
+  background-color: rgb(225, 224, 224);
 }
 div#BlocGauche {
   flex: 1 250px;
@@ -56,31 +76,35 @@ h2
 }
 #BlocGauche h2
 {
-  border: none;
   font-size: 30px;
   text-decoration: underline;
-
 }
-div#BlocDroit h2:nth-of-type(8n+1)
+div#BlocDroit h2:nth-of-type(n+1)
 {
     text-align: center;
     border: solid;
     border-color: rgb(240, 76, 51);
     color: rgb(240, 76, 51);
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
-div#BlocDroit h2:nth-of-type(8n+2)
+div#BlocDroit h2:nth-of-type(n+2)
 {
     text-align: center;
     border: solid;
     border-color: rgb(86, 208, 204);
     color: rgb(86, 208, 204);
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
-div#BlocDroit h2:nth-of-type(8n+3)
+div#BlocDroit h2:nth-of-type(n+3)
 {
     text-align: center;
     border: solid;
     border-color: rgb(35, 210, 4);
     color: rgb(35, 210, 4);
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
