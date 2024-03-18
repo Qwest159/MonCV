@@ -6,7 +6,7 @@ body
 }
 #Block
 {
-
+  /* margin auto */
   background-color: rgba(247, 247, 247, 0.934);
   min-width: 1150px;
 }

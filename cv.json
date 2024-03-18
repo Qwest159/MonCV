@@ -1,0 +1,49 @@
+{
+
+    "nom":"Duduch",
+    "prenom":"Raphaël",
+    "metier":"Developpeur Web",
+    "image":"/Image/bru.png",
+
+    "Donnees_personnelles":[
+                        "36, Rue Thorambais",
+                        "1900 Limal","0471/36 45 79",
+                        "Duduch@hotmailcom",
+                        "Né le 03/09/2000 à Ottignies"
+                    ],
+    "Mes_valeurs": [
+                        "Travailler en équipe est important",
+                        "Persévérer est la clef du succès",
+                        "Se renseigner est primordial",
+                        "Avoir des objectif permet d'avancer"
+                    ],
+
+    "Hobby":[
+                        "Lecture",
+                        "Jeux Vidéo"
+                    ],
+    "Formations":[
+                        " 2009-2015  Étude à l’école CTSJ de Wavre",
+                        "2011-2015  Technicien en menuiserie",
+                        "2016-2017  MATCH","2017-Maintenant Carrefour Bierges", 
+                        "2024-Maintenant Ifosup Wavre"
+                    ],
+    "Experience":[
+                    "3semaines - Stage menuiserie générale",
+                    " 1an - Réassortisseur général", 
+                    "8ans - Produit frais/service client"                
+                ],
+    "Atouts":[
+                    "Français (langue maternelle)",
+                    "Petite connaissance en anglais"  
+                ]
+
+
+
+
+
+
+
+
+
+}
