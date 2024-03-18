@@ -2,7 +2,7 @@
     "nom":"Duduch",
     "prenom":"Raphaël",
     "metier":"Developpeur Web",
-    "image":"image/bru.png",
+    "image":"./image/bru.png",
 
     "Donnees_personnelles":[
                         "36, Rue Thorambais",
@@ -36,13 +36,4 @@
                     "Français (langue maternelle)",
                     "Petite connaissance en anglais"  
                 ]
-
-
-
-
-
-
-
-
-
 }
