@@ -13,7 +13,7 @@ document.querySelector('#app').innerHTML =
 
 <div id="Block">
       <div id="ENTETE">
-        <img src="${cv.ima}" alt=""> 
+        <img src=${cv.ima} alt=""> 
          <em>${cv.nom} ${cv.prenom}</em><br>                             
          <em>${cv.metier}</em> 
       </div>

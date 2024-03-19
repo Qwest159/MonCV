@@ -2,7 +2,7 @@
     "nom":"Duduch",
     "prenom":"Raphaël",
     "metier":"Developpeur Web",
-    "ima":"../ma/bru.png",
+    "ima":"/ma/bru.png",
 
     "Donnees_personnelles":[
                         "36, Rue Thorambais",
