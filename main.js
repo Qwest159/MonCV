@@ -6,7 +6,7 @@ const hobby = cv.Hobby.map((comp) => {return `<li>${comp}</li>`}).join("")
 const formations = cv.Formations.map((comp) => {return `<li>${comp}</li>`}).join("")
 const experience = cv.Experience.map((comp) => {return `<li>${comp}</li>`}).join("")
 const atouts = cv.Atouts.map((comp) => {return `<li>${comp}</li>`}).join("")
-const image = cv.ima.join("")
+const image = cv.ima
 document.querySelector('#app').innerHTML =
 
 `
