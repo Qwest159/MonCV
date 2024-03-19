@@ -6,13 +6,14 @@ const hobby = cv.Hobby.map((comp) => {return `<li>${comp}</li>`}).join("")
 const formations = cv.Formations.map((comp) => {return `<li>${comp}</li>`}).join("")
 const experience = cv.Experience.map((comp) => {return `<li>${comp}</li>`}).join("")
 const atouts = cv.Atouts.map((comp) => {return `<li>${comp}</li>`}).join("")
+const image = {"imglink":"cv.image"}
 document.querySelector('#app').innerHTML =
 
 `
 
 <div id="Block">
       <div id="ENTETE">
-      <img src="${cv.image}" alt="">
+      <img src="${image}" alt="">
          <em>${cv.nom} ${cv.prenom}</em><br>                             
          <em>${cv.metier}</em> 
       </div>
